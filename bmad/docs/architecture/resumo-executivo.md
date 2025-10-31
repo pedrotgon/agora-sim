@@ -1,0 +1,2 @@
+﻿# Resumo Executivo
+A arquitetura do aido estabelece um ecossistema local de agentes Google ADK coordenados por um orquestrador FastAPI, garantindo confidencialidade e baixa latencia para gerar manuais empresariais. PostgreSQL 16.x prove persistencia transacional, enquanto o pipeline docxtpl assegura que cada manual .docx siga o template corporativo. A UI React se conecta via REST e SSE, oferecendo feedback continuo aos usuarios internos.

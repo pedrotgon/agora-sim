@@ -1,0 +1,30 @@
+# --- Pastas específicas que você pediu para ignorAR ---
+# Ignora a pasta 'backend' na raiz
+/backend/
+
+# Ignora a pasta 'upload' na raiz
+/upload/
+
+# Ignora a pasta 'refs' que está dentro de 'bmad'
+/bmad/refs/
+
+# --- Pastas de Cache e Ambientes (Recomendado) ---
+# Ignora caches do Pytest (vi que você tem)
+.pytest_cache/
+
+# Ignora caches do Python
+__pycache__/
+
+# Ignora ambientes virtuais (vi que você tem um .venv)
+.venv/
+env/
+venv/
+
+# Ignora pastas de ferramentas (vi na sua estrutura bmad)
+.bmad-core/
+.gemini/
+
+# --- Segredos (MUITO IMPORTANTE) ---
+# Ignora arquivos de ambiente
+.env
+.env.*
